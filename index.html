@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-	<meta content="#1312" property="og:title" />
-	<meta content="big fucking haunted mound" property="og:description" />
-	<link rel="icon" href="images/icon.gif" type="image/gif" sizes="16x16">
+    <meta content="#1312" property="og:title" />
+    <meta content="big fucking haunted mound" property="og:description" />
+    <link rel="icon" href="images/icon.gif" type="image/gif" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>#1312</title>
     <style>
@@ -59,7 +59,7 @@
 </head>
 
 <body style="background-color: black;">
-    <audio id="hoa-audio" src="audio/backgroundmusic.mp3" autoplaystyle="display:none"></audio>
+    <audio id="hoa-audio" src="audio/backgroundmusic.mp3" autoplay style="display:none"></audio>
     <div class="container">
         <div class="title">hall of fame</div>
         <img src="images/afflict.png" width="500">
@@ -82,8 +82,6 @@
             const hoaAudio = document.getElementById('hoa-audio');
 
             function catchHandler() {
-
-
                 let inputListener;
                 inputListener = function() {
                     hoaAudio.play();
@@ -104,6 +102,8 @@
             }
         })();
     </script>
+    <script src="js/sparkle.js"></script>
+    <script src="js/disable_inspect.js"></script>
 </body>
 
 </html>
